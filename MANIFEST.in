@@ -1,0 +1,5 @@
+include CONTRIBUTING.md SECURITY.md ROADMAP.md CHANGELOG.md
+prune examples
+include examples/.env.example examples/complete.env examples/drift.env
+prune scripts
+include scripts/smoke_wheel.py
