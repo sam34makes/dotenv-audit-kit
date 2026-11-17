@@ -34,5 +34,5 @@ empty/comment-only values. Support Python 3.10 through 3.15 in CI.
 - [x] Add README, license, examples, contributor/security guidance, issue
   templates, changelog, roadmap, and read-only-permission CI.
 - [x] Run Ruff, mypy, tests, sdist/wheel build, and isolated wheel smoke test.
-- [ ] Upload the reviewed, tested files to a new public repo.
-- [ ] Verify remote contents and follow CI to completion if it starts.
+- [x] Upload the reviewed, tested files to a new public repo.
+- [x] Verify remote contents and inspect hosted CI results. See `docs/verification.md` for the pending hosted macOS job.
